@@ -37,10 +37,10 @@ const App = () => {
 
   return (
     <Container maxWidth="lg">
-      <Box sx={{ bgcolor: "#cfe8fc", height: "100vh", width: "100vh" }}>
-        <Typography variant="h1">ToDo List</Typography>
+      <Box sx={{ bgcolor: "#fff", height: "100vh", width: "100vh" }}>
+        <Typography variant="h1">To-Do</Typography>
         <Box className="bg-color" component="section" sx={{ p: 2 }}>
-          <TaskInput onAddTask={addTask} />
+          <TaskInput onAddTask={addTask} aria-label="add-task />
         </Box>
         <Box sx={{ p: 2 }}>
           <TaskList

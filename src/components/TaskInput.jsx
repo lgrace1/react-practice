@@ -22,7 +22,7 @@ const TaskInput = ({ onAddTask }) => {
   return (
     <div style={{ display: "flex", alignItems: "center", gap: "8px" }}>
       <TextField
-        label="Type Task"
+        label="Enter Task"
         variant="outlined"
         value={text}
         onChange={(e) => setText(e.target.value)}

@@ -6,7 +6,7 @@ const TaskHistory = ({ completedTasks }) => {
   return (
     <div>
       <Typography variant="h6" gutterBottom>
-        Completed Tasks
+        Task History
       </Typography>
       <List>
         {completedTasks.map((task) => (
